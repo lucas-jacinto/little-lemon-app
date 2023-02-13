@@ -1,0 +1,9 @@
+.top{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(31, 196, 105);
+}
+
+.icons{
+    display: block;
+}
