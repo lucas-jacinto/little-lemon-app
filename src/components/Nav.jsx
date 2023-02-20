@@ -3,17 +3,17 @@ import './nav.css'
 
 const Nav = () => {
   return (
-    <div className='top'> 
+    <nav className='top'>
       <div className='logo'>
 
       </div>
       <div className='icons'>
-        <h2>Menu</h2>
-        <h2>Services</h2>
-        <h2>Reserve a Table</h2>
-        <h2>About Us</h2>
+        <a href='#menu'>Menu</a>
+        <a href='#services'>Services</a>
+        <a href='#table'>Reserve a table</a>
+        <a href='#about'>About </a>
       </div>
-    </div>
+    </nav>
   )
 }
 
