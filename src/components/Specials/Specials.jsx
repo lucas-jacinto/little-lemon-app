@@ -1,8 +1,12 @@
 import React from 'react'
 
+import './specials.css'
+
 const Specials = () => {
   return (
-    <div>Specials</div>
+    <main>
+    Specials
+    </main>
   )
 }
 

@@ -1,0 +1,6 @@
+footer {
+  width: 100vw;
+  height: 30rem;
+  background-color: var(--color-primary1);
+  margin-top: 3rem;
+}

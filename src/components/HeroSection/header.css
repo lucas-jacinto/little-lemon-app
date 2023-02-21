@@ -4,19 +4,21 @@
   background-color: var(--color-primary1);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50%;
+  gap: 20rem;
   margin-top: -4rem;
 }
 
 .hero {
-  padding: 2rem 2rem 0 20rem;
+padding-left: 26rem;
+padding-top: 2rem;
 }
 
 .img-header img{
   width: 24rem;
-  height: 24rem;
+  height: 26rem;
   border-radius: 1rem;
   margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 h1 {
