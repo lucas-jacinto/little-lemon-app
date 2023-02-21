@@ -1,4 +1,30 @@
-main{
+section {
   height: 40rem;
   width: auto;
+}
+
+.main-specials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+  margin-top: 7rem;
+}
+
+.h1-main {
+  color: var(--color-secundary-dark);
+  padding-left: 26rem;
+}
+
+.btn-special {
+  padding-left: 14rem;
+}
+
+.btn-specials {
+  padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+  background-color: var(--color-primary2);
+  border: transparent;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-secundary-dark);
 }

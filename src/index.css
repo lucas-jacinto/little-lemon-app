@@ -22,6 +22,10 @@
   --transition: all 500ms ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-secundary-light);
 }

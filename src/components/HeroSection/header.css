@@ -1,23 +1,23 @@
 .hero-header {
   width: 100vw;
-  height: 24rem;
+  height: 26rem;
   background-color: var(--color-primary1);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20rem;
-  margin-top: -4rem;
+  margin-top: 5rem;
 }
 
 .hero {
-padding-left: 26rem;
-padding-top: 2rem;
+  padding-left: 26rem;
+  padding-top: 3rem;
 }
 
-.img-header img{
+.img-header img {
   width: 24rem;
   height: 26rem;
   border-radius: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 1rem;
 }
 
@@ -43,5 +43,5 @@ p {
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-secundary-dark);
-  margin-top: 1rem;
+  margin-top: 1.4rem;
 }
