@@ -1,4 +1,27 @@
-*{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-primary1: #495e57;
+  --color-primary2: #f4ce14;
+
+  --color-secundary1: #ee9972;
+  --color-secundary2: #fbdabb;
+  --color-secundary-light: #edefee;
+  --color-secundary-dark: #333333;
+
+  --transition: all 500ms ease;
+}
+
+body {
+  background-color: var(--color-secundary-light);
 }

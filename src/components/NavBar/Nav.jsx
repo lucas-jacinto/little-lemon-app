@@ -1,22 +1,27 @@
 import React from 'react'
 import './nav.css'
+import logo from '../../assets/Logo.svg'
 
 const Nav = () => {
   return (
-    <nav className='top'>
-      <div className='logo'>
-
+    <nav>
+      <div className='top'>
+        <div className='logo'>
+          <img src={logo} alt="logo little lemon" />
       </div>
-      <ul className='icons'>
-        <li>
-          <a href='#home'>HOME</a>
-          <a href='#about'>ABOUT</a>
-          <a href='#menu'>MENU</a>
-          <a href='#reserve'>RESERVATIONS</a>
-          <a href='#order'>ORDER ONLINE</a>
-          <a href='#login'>LOGIN</a>
-        </li>
-      </ul>
+      <div className='icons'>
+        <ul>
+          <li className='icons-nav'>
+            <a href='#'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#menu'>Menu</a>
+            <a href='#reserve'>Reservtions</a>
+            <a href='#order'>Order Online</a>
+            <a href='#login'>Login</a>
+          </li>
+        </ul>
+      </div>
+      </div>
     </nav>
   )
 }
