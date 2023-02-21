@@ -1,22 +1,23 @@
 section {
-  height: 40rem;
+  height: 60rem;
   width: auto;
 }
 
 .main-specials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20rem;
+  gap: 2rem;
   margin-top: 7rem;
 }
 
 .h1-main {
   color: var(--color-secundary-dark);
   padding-left: 26rem;
+  font-size: 54px;
 }
 
 .btn-special {
-  padding-left: 14rem;
+  padding-left: 20rem;
 }
 
 .btn-specials {
@@ -27,4 +28,48 @@ section {
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-secundary-dark);
+}
+
+.card-specials {
+  width: 20rem;
+  height: 38rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-left: 26rem;
+  margin-top: 3rem;
+  background-color: var(--color-secundary2);
+  border-radius: 1rem;
+}
+
+.cards {
+  width: 20rem;
+  height: 38rem;
+  background-color: var(--color-secundary2);
+  border-radius: 1rem;
+}
+
+.cards img {
+  width: 20rem;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.cards.bru img {
+  height: auto;
+}
+
+.cards.lemo img {
+  height: 13.5rem;
+}
+
+.cards a{
+  text-decoration: none;
+  color: var(--color-secundary-dark);
+  padding-top: 2rem;
+}
+
+.cards a img{
+width: 1rem;
+color: var(--color-secundary-dark);
 }
