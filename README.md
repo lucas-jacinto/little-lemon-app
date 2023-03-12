@@ -4,4 +4,6 @@ Esse curso foi desenvolvido pela empresa Meta e disponibilizado pela coursera co
 
 ## Little Lemon
 Projeto feito no curso 8 (Front-End Developer Capstone)
---Aqui foi utilizado todo o conhecimento do curso na pratica
+
+## Preview
+
